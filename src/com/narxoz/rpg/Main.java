@@ -11,10 +11,10 @@ import com.narxoz.rpg.hero.HeroProfile;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("=== Homework 5: Decorator + Facade ===\n");
+        System.out.println("=== Homework 5: Decorator + Facade ===");
 
-        HeroProfile hero = new HeroProfile("CyberKnight", 120);
-        BossEnemy boss = new BossEnemy("Malware Dragon", 250, 15);
+        HeroProfile hero = new HeroProfile("Knight", 120);
+        BossEnemy boss = new BossEnemy("Dragon", 250, 15);
 
         AttackAction strike = new BasicAttack("Power Strike", 20);
         
